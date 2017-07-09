@@ -1,0 +1,85 @@
+<_>
+   <form_key>kz6nO0RNqrlu1IiJ</form_key>
+   <name>Fishpig_AttributeSplash_Addon_QuickCreate</name>
+   <channel>community</channel>
+   <version_ids>
+      <version_ids>2</version_ids>
+   </version_ids>
+   <summary>Quickly create Splash pages for different attributes.</summary>
+   <description>Quickly create Splash pages for different attributes.</description>
+   <license>FishPig EULA</license>
+   <license_uri>http://fishpig.co.uk/license.txt</license_uri>
+   <version>1.0.4.1</version>
+   <stability>stable</stability>
+   <notes>Fixed bug that causes duplicates to be created when running a single store Magento</notes>
+   <authors>
+      <name>
+         <name>fishpig</name>
+      </name>
+      <user>
+         <user>fishpig</user>
+      </user>
+      <email>
+         <email>ben@fishpig.co.uk</email>
+      </email>
+   </authors>
+   <depends_php_min>5.2.0</depends_php_min>
+   <depends_php_max>8.0.0</depends_php_max>
+   <depends>
+      <package>
+         <name>
+            <name/>
+         </name>
+         <channel>
+            <channel/>
+         </channel>
+         <min>
+            <min/>
+         </min>
+         <max>
+            <max/>
+         </max>
+         <files>
+            <files>      </files>
+         </files>
+      </package>
+      <extension>
+         <name>
+            <name>Core</name>
+         </name>
+         <min>
+            <min/>
+         </min>
+         <max>
+            <max/>
+         </max>
+      </extension>
+   </depends>
+   <contents>
+      <target>
+         <target>magelocal</target>
+         <target>magecommunity</target>
+         <target>mageweb</target>
+      </target>
+      <path>
+         <path/>
+         <path>Fishpig/AttributeSplash/Addon/QuickCreate</path>
+         <path>app/etc/modules/Fishpig_AttributeSplash_Addon_QuickCreate.xml</path>
+      </path>
+      <type>
+         <type>file</type>
+         <type>dir</type>
+         <type>file</type>
+      </type>
+      <include>
+         <include/>
+         <include/>
+         <include/>
+      </include>
+      <ignore>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+      </ignore>
+   </contents>
+</_>
